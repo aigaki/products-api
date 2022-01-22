@@ -1,13 +1,8 @@
 package dto
 
 type ProductDto struct {
-	Name string
-	Id   int
-}
-
-func DummyProduct() ProductDto {
-	return ProductDto{
-		Name: "hello product!",
-		Id:   12,
-	}
+	Name   string  `json:"name"`
+	Price  float64 `json:"price"`
+	Id     int     `json:"id"`
+	ImgUrl string  `json:"imgUrl"`
 }
