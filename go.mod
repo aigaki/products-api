@@ -1,4 +1,4 @@
-module github.com/aigaki/app
+module github.com/aigaki/products-api
 
 go 1.17
 

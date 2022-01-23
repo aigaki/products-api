@@ -1,7 +1,7 @@
-# Mann backend
+# Aigaki Products API
 
 ## How to run
 
 ```sh
-go run main.go
+go run src/main.go
 ```

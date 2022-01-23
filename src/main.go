@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/aigaki/app/src/dto"
+	"github.com/aigaki/products-api/src/dto"
 	"github.com/gorilla/mux"
 )
 
