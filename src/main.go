@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/aigaki/app/src/dto"
 	"github.com/gorilla/mux"
-	"github.com/kolaczyn/mann_backend/src/dto"
 )
 
 func RootHandler(w http.ResponseWriter, r *http.Request) {

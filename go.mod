@@ -1,4 +1,4 @@
-module github.com/kolaczyn/mann_backend
+module github.com/aigaki/app
 
 go 1.17
 
